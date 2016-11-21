@@ -63,7 +63,18 @@
         }
       }
       return false;
-    };
+    },
+    clear = function() {
+      if (checkStorage()) {
+        try {
+          getStorage().clear();
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+      return false;
+    }
 
   w.snap.get = getItem;
   w.snap.getItem = getItem;
@@ -71,6 +82,7 @@
   w.snap.setItem = setItem;
   w.snap.remove = removeItem;
   w.snap.removeItem = removeItem;
+  w.snap.clear = clear;
 
   w.snap.setType = setType;
 
