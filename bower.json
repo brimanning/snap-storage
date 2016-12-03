@@ -1,6 +1,7 @@
 {
   "name": "snap-storage",
   "main": "snap-storage.js",
+  "version": "0.1.0",
   "homepage": "https://github.com/brimanning/snap-storage",
   "authors": [
     "brimanning <bri@brimanning.com>"
