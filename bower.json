@@ -1,0 +1,22 @@
+{
+  "name": "snap-storage",
+  "main": "snap-storage.js",
+  "homepage": "https://github.com/brimanning/snap-storage",
+  "authors": [
+    "brimanning <bri@brimanning.com>"
+  ],
+  "description": "Makes localStorage and sessionStorage a snap.",
+  "keywords": [
+    "localStorage",
+    "webStorage",
+    "storage"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
