@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+  <script src="../snap-storage.js"></script>
+  <script>
+    snap.set('test key', 'test value');
+    snap.get('test key'); //returns 'test value'
+    snap.remove('test key');
+    snap.get('test key'); //returns null
+
+    var testObj = {
+      prop1: 'value 1',
+      prop2: 'value 2'
+    };
+    snap.set('test object key', testObj);
+    snap.get('test object key'); //returns object like testObj, but snap.get('test object key') != testObj
+  </script>
+</body>
+</html>
