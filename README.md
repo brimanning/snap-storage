@@ -5,8 +5,8 @@
 Installation options
 ===
 + Download from above
-+ Clone: `git clone https://github.com/brimanning/simplevideo.git`
-+ Bower: `bower install simplevideo`
++ Clone: `git clone https://github.com/brimanning/snap-storage.git`
++ Bower: `bower install snap-storage`
 
 Usage
 ===
