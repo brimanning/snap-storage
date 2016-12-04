@@ -31,7 +31,7 @@
       return useStorage !== null;
     },
     getStorage = function() {
-      return type === 'session' ? sessionStorage : localStorage;
+      return type === 'local' || type === 'localStorage' ? localStorage : sessionStorage;
     },
     setItem = function(key, obj) {
       if (checkStorage()) {
