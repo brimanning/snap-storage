@@ -5,7 +5,7 @@
  * Copyright 2016 Brian Manning
  * Released under the MIT license
  *
- * Date: 11/21/2016
+ * Date: 12/3/2016
  */
 
 (function (w, $) {
